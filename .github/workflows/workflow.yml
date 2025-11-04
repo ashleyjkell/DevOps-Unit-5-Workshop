@@ -1,0 +1,9 @@
+name: CI Workshop
+on: [push]
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    step:
+    - uses: actions/checkout@v4
